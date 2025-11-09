@@ -12,7 +12,7 @@ from local_settings import postgresql as settings
 import numpy as np
 import seaborn as sns
 
-
+# dgsdg
 #  Настройки 
 
 def get_engine (user, passwd, host, port, db) :
@@ -195,4 +195,5 @@ plt.xlabel("Цена товара (BRL)")
 plt.ylabel("Сумма платежа (BRL)")
 plt.savefig("charts/scatter.png")
 print(f"[Scatter] {len(df_scatter)} строк → scatter.png (Зависимость цены и платежа)")
+
 
